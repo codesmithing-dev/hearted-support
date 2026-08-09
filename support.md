@@ -45,9 +45,8 @@ de iCloud y los ajustes de la cuenta desde Ajustes del Sistema.
 ### Solución de problemas de sincronización con iCloud
 
 Comprueba que todos los dispositivos usen la misma cuenta de Apple y que iCloud
-esté disponible en Ajustes del Sistema. En Hearted, abre Ajustes > Sincronización
-con iCloud para consultar el estado actual y elige Sincronizar ahora. Si el
-problema continúa, usa Copiar diagnóstico en esa pantalla y envía el informe por
-correo electrónico a la dirección de soporte indicada arriba. Revisa el informe
-antes de enviarlo y no publiques diagnósticos de sincronización en una incidencia
-pública.
+esté disponible en Ajustes del Sistema. En Hearted, abre Ajustes > «iCloud Sync»
+para consultar el estado actual y elige «Sync Now». Si el problema continúa, usa
+«Copy Diagnostics» en esa pantalla y envía el informe por correo electrónico a
+la dirección de soporte indicada arriba. Revisa el informe antes de enviarlo y
+no publiques diagnósticos de sincronización en una incidencia pública.
