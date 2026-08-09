@@ -24,10 +24,12 @@ described below.
 Bookmarks, tags, bundles, saved searches, notes, settings, and saved assets are
 stored on your device. If you use iCloud sync, bookmark data and saved-asset
 metadata are stored in your private CloudKit database so they can appear on your
-other devices. Saved-asset file contents remain on the device where they were
-created and are not copied by the current version of Hearted. By default, only
-you can access your private CloudKit database; its contents are not visible to
-the developer.
+other devices. App settings — including recent searches, auto-tagging rules,
+custom CSS, and the favicon provider template — sync separately through Apple's
+iCloud key-value storage when the device is signed in to iCloud. Saved-asset
+file contents remain on the device where they were created and are not copied
+by the current version of Hearted. By default, only you can access your private
+iCloud data; its contents are not visible to the developer.
 
 You can export your library from Hearted. Deleting a bookmark removes it from
 the live library and propagates that deletion to your synced devices. You can
@@ -85,10 +87,14 @@ Los marcadores, las etiquetas, las colecciones, las búsquedas guardadas, las
 notas, los ajustes y los recursos guardados se almacenan en tu dispositivo. Si
 usas la sincronización con iCloud, los datos de los marcadores y los metadatos
 de los recursos guardados se almacenan en tu base de datos privada de CloudKit
-para que aparezcan en tus otros dispositivos. El contenido de los archivos de
-recursos guardados permanece en el dispositivo donde se creó y la versión actual
-de Hearted no lo copia. De forma predeterminada, solo tú puedes acceder a tu base
-de datos privada de CloudKit; el desarrollador no puede ver su contenido.
+para que aparezcan en tus otros dispositivos. Los ajustes de la app — incluidas
+las búsquedas recientes, las reglas de etiquetado automático, el CSS personalizado
+y la plantilla del proveedor de favicons — se sincronizan por separado mediante
+el almacenamiento de clave-valor de iCloud cuando el dispositivo tiene una
+sesión iniciada en iCloud. El contenido de los archivos de recursos guardados
+permanece en el dispositivo donde se creó y la versión actual de Hearted no lo
+copia. De forma predeterminada, solo tú puedes acceder a tus datos privados de
+iCloud; el desarrollador no puede ver su contenido.
 
 Puedes exportar tu biblioteca desde Hearted. Al borrar un marcador, se elimina
 de la biblioteca activa y el borrado se propaga a tus dispositivos
