@@ -24,9 +24,12 @@ described below.
 Bookmarks, tags, bundles, saved searches, notes, settings, and saved assets are
 stored on your device. If you use iCloud sync, bookmark data and saved-asset
 metadata are stored in your private CloudKit database so they can appear on your
-other devices. Saved-asset file contents remain on the device where they were
-created and are not copied by iCloud sync. By default, only you can access your
-private CloudKit database; its contents are not visible to the developer.
+other devices. Saved-asset file contents never enter CloudKit records. When
+Hearted can access its iCloud Drive container, it mirrors those files through
+that private container so they can be downloaded on your other devices;
+otherwise they remain only on the device where they were created. By default,
+only you can access your private iCloud data; its contents are not visible to
+the developer.
 
 You can export your library from Hearted. Deleting a bookmark removes it from
 the live library and propagates that deletion to your synced devices. You can
@@ -85,10 +88,12 @@ notas, los ajustes y los recursos guardados se almacenan en tu dispositivo. Si
 usas la sincronización con iCloud, los datos de los marcadores y los metadatos
 de los recursos guardados se almacenan en tu base de datos privada de CloudKit
 para que aparezcan en tus otros dispositivos. El contenido de los archivos de
-recursos guardados permanece en el dispositivo donde se creó y no se copia
-mediante la sincronización con iCloud. De forma predeterminada, solo tú puedes
-acceder a tu base de datos privada de CloudKit; el desarrollador no puede ver su
-contenido.
+recursos guardados nunca se incluye en los registros de CloudKit. Cuando Hearted
+puede acceder a su contenedor de iCloud Drive, copia esos archivos en ese
+contenedor privado para que puedan descargarse en tus otros dispositivos; de lo
+contrario, permanecen únicamente en el dispositivo donde se crearon. De forma
+predeterminada, solo tú puedes acceder a tus datos privados de iCloud; el
+desarrollador no puede ver su contenido.
 
 Puedes exportar tu biblioteca desde Hearted. Al borrar un marcador, se elimina
 de la biblioteca activa y el borrado se propaga a tus dispositivos
