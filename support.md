@@ -10,7 +10,7 @@ title: Hearted Support
 For help, bug reports, or feature requests:
 
 - Email [justin@gigq.com](mailto:justin@gigq.com).
-- Open a public [GitHub issue](https://github.com/codesmithing-dev/Hearted/issues).
+- Open a public [GitHub issue](https://github.com/codesmithing-dev/hearted-support/issues).
 
 Please include the platform and OS version, the Hearted version shown in
 Settings, and the steps that reproduce the problem. Do not include private
@@ -24,7 +24,7 @@ settings are managed by Apple in System Settings.
 Para obtener ayuda, informar de un error o proponer una función:
 
 - Escribe a [justin@gigq.com](mailto:justin@gigq.com).
-- Abre una [incidencia pública en GitHub](https://github.com/codesmithing-dev/Hearted/issues).
+- Abre una [incidencia pública en GitHub](https://github.com/codesmithing-dev/hearted-support/issues).
 
 Incluye la plataforma y la versión del sistema, la versión de Hearted que
 aparece en Ajustes y los pasos para reproducir el problema. No incluyas URL

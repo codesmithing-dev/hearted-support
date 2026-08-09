@@ -22,10 +22,11 @@ described below.
 ### Storage and iCloud
 
 Bookmarks, tags, bundles, saved searches, notes, settings, and saved assets are
-stored on your device. If you use iCloud sync, this content is stored in your
-private CloudKit database so it can appear on your other devices. By default,
-only you can access that private database; its contents are not visible to the
-developer.
+stored on your device. If you use iCloud sync, bookmark data and saved-asset
+metadata are stored in your private CloudKit database so they can appear on your
+other devices. Saved-asset file contents remain on the device where they were
+created and are not copied by iCloud sync. By default, only you can access your
+private CloudKit database; its contents are not visible to the developer.
 
 You can export your library from Hearted. Deleting a bookmark removes it from
 the live library and propagates that deletion to your synced devices. You can
@@ -81,10 +82,13 @@ información de sitios guardados a terceros, como se describe más adelante.
 
 Los marcadores, las etiquetas, las colecciones, las búsquedas guardadas, las
 notas, los ajustes y los recursos guardados se almacenan en tu dispositivo. Si
-usas la sincronización con iCloud, este contenido se guarda en tu base de datos
-privada de CloudKit para que aparezca en tus otros dispositivos. De forma
-predeterminada, solo tú puedes acceder a esa base de datos privada; el
-desarrollador no puede ver su contenido.
+usas la sincronización con iCloud, los datos de los marcadores y los metadatos
+de los recursos guardados se almacenan en tu base de datos privada de CloudKit
+para que aparezcan en tus otros dispositivos. El contenido de los archivos de
+recursos guardados permanece en el dispositivo donde se creó y no se copia
+mediante la sincronización con iCloud. De forma predeterminada, solo tú puedes
+acceder a tu base de datos privada de CloudKit; el desarrollador no puede ver su
+contenido.
 
 Puedes exportar tu biblioteca desde Hearted. Al borrar un marcador, se elimina
 de la biblioteca activa y el borrado se propaga a tus dispositivos
